@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Exo+2&family=Signika&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 2rem;
+    font-family: 'Exo 2', 'sans-serif';
+    font-size: 17px;
+}
+
+header {
+    text-align: center;
+    background-color: #003554;
+    color: white;
+}
+
+nav {
+    margin-top: 70px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+nav li {
+    margin: 10px;
+    font-size: 20px;
+    list-style: none;
+}
+
+h1 {
+    margin: 25px;
+    font-size: 80px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #006494;
+    
+}
+
+a:hover {
+    background-color: #00A6FB;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+a:active {
+    background-color: #00B4D8;
+    transition: .1s ease-in-out;
+}
+
+h2 {
+    margin-top: 15px;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h3 {
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Signika, sans-serif;
+    
+}
+
+p {
+    font-family: Signika, sans-serif;
+}
+
+
+/*color palette section*/
+
+.color-palettes {
+    display: flex;
+    margin-top: 10px;
+}
+
+.container {
+    height: 140px;
+    width: 90px;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 0.7rem;
+}
+
+#primary {
+    background-color: #00A6FB;
+}
+
+#primary-one {
+    background-color: #0582CA;
+}
+
+#primary-two {
+    background-color: #006494;
+    color: white;
+}
+
+#primary-three {
+    background-color: #003554;
+    color: white;
+}
+
+#primary-four {
+    background-color: #051923;
+    color: white;
+}
+
+#secondary {
+    background-color: #03045E;
+    color: white;
+}
+
+#secondary-one {
+    background-color: #0077B6;
+    color: white;
+}
+
+#secondary-two {
+    background-color: #00B4D8;
+}
+
+#secondary-three {
+    background-color: #90E0EF;
+}
+
+#secondary-four {
+    background-color: #CAF0F8;
+}
+
+/* Fonts section*/
+
+#fonts {
+    line-height: 2rem;
+}
+
+#fonts h3 {
+    font-size: 1.7rem;
+}
+
+.archivo-narrow {
+    font-family: 'Archivo Narrow';
+}
+
+.exo {
+    font-family: 'Exo 2';
+}
+
+.signika {
+    font-family: Signika;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+/*button styling section */
+
+.button {
+    width: 130px;
+    height: 50px;
+    /* background-color: red; */
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    line-height: 50px;
+}
+
+.prime-button {
+    background-color: #006494;
+    color: white;
+}
+
+.prime-button:hover {
+    background-color: #00A6FB;
+    color: black;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.prime-button:active {
+    background-color: #003554;
+    color: white;
+    transition: .1s ease-in-out;
+}
+
+.second-button {
+    background-color: #00B4D8;
+}
+
+.second-button:hover {
+    background-color: #90E0EF;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.second-button:active {
+    background-color: #03045E;
+    color: white;
+    transition: .1s ease-in-out;
+}
+
+
+/* text Styling Section */
+
+.text-container {
+    margin: 15px;
+}
+
+.text-container h1 {
+    margin: 15px 0 15px 0;
+}
+
+.text-container h2 {
+    margin: 15px 0 15px 0;
+}
+
+.text-container h3 {
+    margin: 15px 0 15px 0;
+}
+
+.text-container p {
+    margin: 15px 0 15px 0;
+}
+
+
+/* footer */
+
+footer {
+    height: 90px;
+    background-color: #003554;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    line-height: 90px;
+}
